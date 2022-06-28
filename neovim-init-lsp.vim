@@ -35,9 +35,6 @@ Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
 
-colorscheme nord
-
-
 " Set completeopt to have a better completion experience
 " :help completeopt
 " menuone: popup even when there's only one match
@@ -47,7 +44,6 @@ set completeopt=menuone,noinsert,noselect
 
 " Avoid showing extra messages when using completion
 set shortmess+=c
-
 
 " Configure lsp
 " https://github.com/neovim/nvim-lspconfig#rust_analyzer
